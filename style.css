@@ -3,7 +3,7 @@ body {
 	padding: 10px;
 	grid-gap: 15px;
 	grid-template-areas: "header header header" "nav article article" "nav article article";
-	background-color: midnightblue; 
+	background-color: ghostwhite; 
 }
 
 #top {
@@ -23,7 +23,7 @@ header {
 }
 
 .border {
-	border: .5px dashed white;
+	border: .5px double blue;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -47,7 +47,7 @@ time{
 
 ul:not(#skills) {
 	padding-left:300px;
-	border-bottom: medium groove;
+	border-bottom: medium double;
 }
 li{
 	padding-bottom: 15px;
@@ -62,13 +62,13 @@ h1, h2, h3 {
 }
 
 nav {
-	background-color: blue;
+	background-color: lightsteelblue;
 	width: 200px;
 }
 
 .info {
 	padding-bottom: 25px;
-	border-bottom: 5px groove;
+	border-bottom: 5px double;
 	content: "";
 	display: compact;
 	margin: 0 auto;
@@ -87,13 +87,6 @@ img {
 a {
 	display: block;
 }
-img:not(#pic) {
-	max-width: 5%;
-	float: left;
-}
 
-h1,h2,h3{
-	font-family:'Comic Sans MS';
-}
 
  
